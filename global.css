@@ -10,7 +10,7 @@
   --text-dark: #2d2c2a;
   --text-box-white: #2d2c2a;
   --text-box-dark: #e6e6e6;
-  --bg-grey-light: #121212;
+  --bg-grey-light: #343746;
   --bg-blue-dark: #121212;
 
   animation: fadeInAnimation ease 0.5s;
@@ -89,11 +89,16 @@ header p {
   color: var(--text-white);
 }
 
-.svg {
+.svgMoon {
   color: var(--text-white);
   position: fixed;
   bottom: 3%;
   left: 2%;
+}
+
+svg:hover {
+  width: 64px;
+  height: 64px;
 }
 
 /* Section */
