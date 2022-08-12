@@ -12,6 +12,19 @@
   --text-box-dark: #e6e6e6;
   --bg-grey-light: #121212;
   --bg-blue-dark: #121212;
+
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body {
@@ -28,6 +41,19 @@ body {
   background-color: var(--bg-grey-light);
 
   font-family: "Roboto", sans-serif;
+
+  animation: fadeInAnimationT ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimationT {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 ul {
